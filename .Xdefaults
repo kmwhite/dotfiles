@@ -1,0 +1,668 @@
+! ----------------------------------------------------------------------------
+! file:     ~/.Xdefaults
+! author:   Kristofer M White <me@kmwhite.net>
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+!# include '.Xdefaults.d/colors.xrc'
+!! SOLARIZED
+!XTerm*background:            #002b36
+!XTerm*foreground:            #657b83
+!XTerm*fading:                40
+!XTerm*fadeColor:             #002b36
+!XTerm*cursorColor:           #93a1a1
+!XTerm*pointerColorBackground:#586e75
+!XTerm*pointerColorForeground:#93a1a1
+!XTerm*color0:                #073642
+!XTerm*color1:                #dc322f
+!XTerm*color2:                #859900
+!XTerm*color3:                #b58900
+!XTerm*color4:                #268bd2
+!XTerm*color5:                #d33682
+!XTerm*color6:                #2aa198
+!XTerm*color7:                #eee8d5
+!XTerm*color9:                #cb4b16
+!XTerm*color8:                #002b36
+!XTerm*color10:               #586e75
+!XTerm*color11:               #657b83
+!XTerm*color12:               #839496
+!XTerm*color13:               #6c71c4
+!XTerm*color14:               #93a1a1
+!XTerm*color15:               #fdf6e3
+!
+!http://phraktured.net/terminal-colors/
+!!Theme One
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:a8/a8/a8
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:a8/00/00
+!XTerm*color2:     rgb:00/a8/00
+!XTerm*color3:     rgb:a8/54/00
+!XTerm*color4:     rgb:00/00/a8
+!XTerm*color5:     rgb:a8/00/a8
+!XTerm*color6:     rgb:00/a8/a8
+!XTerm*color7:     rgb:a8/a8/a8
+!XTerm*color8:     rgb:54/50/54
+!XTerm*color9:     rgb:f8/54/50
+!XTerm*color10:    rgb:50/fc/50
+!XTerm*color11:    rgb:f8/fc/50
+!XTerm*color12:    rgb:50/54/f8
+!XTerm*color13:    rgb:f8/54/f8
+!XTerm*color14:    rgb:50/fc/f8
+!XTerm*color15:    rgb:f8/fc/f8
+!
+!!Theme Two
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:7f/7f/7f
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:9e/18/28
+!XTerm*color2:     rgb:ae/ce/92
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:41/41/71
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:cf/61/71
+!XTerm*color10:    rgb:c5/f7/79
+!XTerm*color11:    rgb:ff/f7/96
+!XTerm*color12:    rgb:41/86/be
+!XTerm*color13:    rgb:cf/9e/be
+!XTerm*color14:    rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Three
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:cf/cf/cf
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:e0/10/10
+!XTerm*color2:     rgb:20/ad/20
+!XTerm*color3:     rgb:d4/c2/4f
+!XTerm*color4:     rgb:23/1b/b8
+!XTerm*color5:     rgb:9c/38/85
+!XTerm*color6:     rgb:1d/bd/b8
+!XTerm*color7:     rgb:fe/fe/fe
+!XTerm*color8:     rgb:6a/6a/6a
+!XTerm*color9:     rgb:e8/3a/3d
+!XTerm*color10:    rgb:35/e9/56
+!XTerm*color11:    rgb:ff/ff/2f
+!XTerm*color12:    rgb:3a/53/f0
+!XTerm*color13:    rgb:e6/28/ba
+!XTerm*color14:    rgb:1c/f5/f5
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Four
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:ff/ff/ff
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:d3/62/65
+!XTerm*color2:     rgb:ae/ce/91
+!XTerm*color3:     rgb:e7/e1/8c
+!XTerm*color4:     rgb:7a/7a/b0
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:ef/81/71
+!XTerm*color10:    rgb:e5/f7/79
+!XTerm*color11:    rgb:ff/f7/96
+!XTerm*color12:    rgb:41/86/be
+!XTerm*color13:    rgb:ef/9e/be
+!XTerm*color14:    rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Five
+!XTerm*background: rgb:ad/aa/ad
+!XTerm*foreground: rgb:00/00/00
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:64/0f/19
+!XTerm*color2:     rgb:63/79/6b
+!XTerm*color3:     rgb:ad/71/42
+!XTerm*color4:     rgb:4f/4f/89
+!XTerm*color5:     rgb:b2/5c/7c
+!XTerm*color6:     rgb:52/75/6b
+!XTerm*color7:     rgb:ad/aa/ad
+!XTerm*color8:     rgb:52/55/52
+!XTerm*color9:     rgb:a5/61/63
+!XTerm*color10:    rgb:ce/c2/63
+!XTerm*color11:    rgb:73/ae/70
+!XTerm*color12:    rgb:36/70/9f
+!XTerm*color13:    rgb:aa/82/9c
+!XTerm*color14:    rgb:51/89/89
+!XTerm*color15:    rgb:ff/ff/ef
+!
+!!Theme Six
+!XTerm*background: rgb:be/be/be
+!XTerm*foreground: rgb:21/21/21
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:bf/72/76
+!XTerm*color2:     rgb:86/af/80
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:36/73/b5
+!XTerm*color5:     rgb:9a/70/b2
+!XTerm*color6:     rgb:7a/be/cc
+!XTerm*color7:     rgb:db/db/db
+!XTerm*color8:     rgb:66/92/af
+!XTerm*color9:     rgb:e5/50/5f
+!XTerm*color10:    rgb:87/bc/87
+!XTerm*color11:    rgb:e0/d9/5c
+!XTerm*color12:    rgb:1b/85/d6
+!XTerm*color13:    rgb:ad/73/ba
+!XTerm*color14:    rgb:33/8e/aa
+!XTerm*color15:    rgb:f4/f4/f4
+!
+!!Theme Seven
+!XTerm*background: rgb:67/67/67
+!XTerm*foreground: rgb:ff/ff/ff
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:bf/46/46
+!XTerm*color2:     rgb:67/b2/5f
+!XTerm*color3:     rgb:cf/c4/4e
+!XTerm*color4:     rgb:51/60/83
+!XTerm*color5:     rgb:ca/6e/ff
+!XTerm*color6:     rgb:92/b2/f8
+!XTerm*color7:     rgb:d5/d5/d5
+!XTerm*color8:     rgb:00/00/00
+!XTerm*color9:     rgb:f4/8a/8a
+!XTerm*color10:    rgb:a5/d7/9f
+!XTerm*color11:    rgb:e1/da/84
+!XTerm*color12:    rgb:a2/bb/ff
+!XTerm*color13:    rgb:e2/b0/ff
+!XTerm*color14:    rgb:ba/cd/f8
+!XTerm*color15:    rgb:d5/d5/d5
+!
+!!Theme Eight
+!XTerm*background: rgb:10/10/10
+!XTerm*foreground: rgb:d3/d3/d3
+!XTerm*color0:     rgb:10/10/10
+!XTerm*color1:     rgb:cd/5c/5c
+!XTerm*color2:     rgb:2e/8b/57
+!XTerm*color3:     rgb:f0/e6/8c
+!XTerm*color4:     rgb:b0/c4/de
+!XTerm*color5:     rgb:ba/55/d3
+!XTerm*color6:     rgb:46/82/b4
+!XTerm*color7:     rgb:d3/d3/d3
+!XTerm*color8:     rgb:4d/4d/4d
+!XTerm*color9:     rgb:ff/6a/6a
+!XTerm*color10:    rgb:8f/bc/8f
+!XTerm*color11:    rgb:ff/fa/cd
+!XTerm*color12:    rgb:1e/90/ff
+!XTerm*color13:    rgb:db/70/93
+!XTerm*color14:    rgb:5f/9e/a0
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Nine
+!XTerm*background: rgb:1a/1a/1a
+!XTerm*foreground: rgb:d6/d6/d6
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:9e/18/28
+!XTerm*color2:     rgb:00/88/00
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:41/41/71
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:cf/61/71
+!XTerm*color10     rgb:7c/bc/8c
+!XTerm*color11     rgb:ff/f7/96
+!XTerm*color12     rgb:41/86/be
+!XTerm*color13     rgb:cf/9e/be
+!XTerm*color14     rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Ten
+!XTerm*background: rgb:1a/1a/1a
+!XTerm*foreground: rgb:d6/d6/d6
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:98/56/5e
+!XTerm*color2:     rgb:66/82/5d
+!XTerm*color3:     rgb:96/91/76
+!XTerm*color4:     rgb:4d/65/85
+!XTerm*color5:     rgb:96/73/95
+!XTerm*color6:     rgb:5f/7f/7b
+!XTerm*color7:     rgb:b3/b3/b3
+!XTerm*color8:     rgb:73/73/73
+!XTerm*color9:     rgb:cf/a3/a9
+!XTerm*color10:    rgb:ca/f7/bb
+!XTerm*color11:    rgb:ff/f8/bc
+!XTerm*color12:    rgb:83/a3/be
+!XTerm*color13:    rgb:bb/a9/cf
+!XTerm*color14:    rgb:96/cc/cc
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Eleven
+!XTerm*background: rgb:33/33/33
+!XTerm*foreground: rgb:ff/ff/ff
+!XTerm*color0:     rgb:33/33/33
+!XTerm*color8:     rgb:33/33/33
+!XTerm*color1:     rgb:ff/a0/a0
+!XTerm*color9:     rgb:ff/a0/a0
+!XTerm*color2:     rgb:98/fb/98
+!XTerm*color10:    rgb:9a/cd/32
+!XTerm*color3:     rgb:f0/e6/8c
+!XTerm*color11:    rgb:f0/e6/8c
+!XTerm*color4:     rgb:87/ce/eb
+!XTerm*color12:    rgb:87/ce/eb
+!XTerm*color5:     rgb:ff/a0/a0
+!XTerm*color13:    rgb:ff/a0/a0
+!XTerm*color6:     rgb:87/ce/eb
+!XTerm*color14:    rgb:87/ce/eb
+!XTerm*color7:     rgb:ff/ff/ff
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Twelve
+!XTerm*foreground: rgb:ff/ff/ff
+!XTerm*background: rgb:00/00/00
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:bf/72/76
+!XTerm*color2:     rgb:86/af/80
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:36/73/b5
+!XTerm*color5:     rgb:9a/70/b2
+!XTerm*color6:     rgb:7a/be/cc
+!XTerm*color7:     rgb:db/db/db
+!XTerm*color8:     rgb:66/92/af
+!XTerm*color9:     rgb:e5/50/5f
+!XTerm*color10:    rgb:87/bc/87
+!XTerm*color11:    rgb:e0/d9/5c
+!XTerm*color12:    rgb:1b/85/d6
+!XTerm*color13:    rgb:ad/73/ba
+!XTerm*color14:    rgb:33/8e/aa
+!XTerm*color15:    rgb:f4/f4/f4
+!
+!!Theme Thirteen
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:aa/aa/aa
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:9e/18/28
+!XTerm*color2:     rgb:ae/ce/92
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:41/41/71
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:7f/9f/7f
+!XTerm*color7:     rgb:be/be/be 
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:cf/61/71
+!XTerm*color10:    rgb:af/c5/af
+!XTerm*color11:    rgb:f0/df/af
+!XTerm*color12:    rgb:8e/9f/bc
+!XTerm*color13:    rgb:dc/a3/a3
+!XTerm*color14:    rgb:95/c1/c5
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Fourteen
+!XTerm*background: rgb:95/95/95
+!XTerm*foreground: rgb:00/00/00
+!XTerm*color0:     rgb:7f/7f/7f
+!XTerm*color1:     rgb:cd/00/00
+!XTerm*color2:     rgb:00/8b/00
+!XTerm*color3:     rgb:ee/ee/00
+!XTerm*color4:     rgb:00/00/cd
+!XTerm*color5:     rgb:cd/00/cd
+!XTerm*color6:     rgb:00/ee/ee
+!XTerm*color7:     rgb:fa/eb/d7
+!XTerm*color8:     rgb:e5/e5/e5
+!XTerm*color9:     rgb:80/00/00
+!XTerm*color10:    rgb:00/50/20
+!XTerm*color11:    rgb:99/55/00
+!XTerm*color12:    rgb:00/40/80
+!XTerm*color13:    rgb:44/33/00
+!XTerm*color14:    rgb:30/60/80
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Fifteen
+!XTerm*background: rgb:1d/2b/3a
+!XTerm*foreground: rgb:be/be/be
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:d3/62/65
+!XTerm*color2:     rgb:ae/ce/91
+!XTerm*color3:     rgb:e7/e1/8c
+!XTerm*color4:     rgb:7a/7a/b0
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:ef/81/71
+!XTerm*color10:    rgb:e5/f7/79
+!XTerm*color11:    rgb:ff/f7/99
+!XTerm*color12:    rgb:41/86/be
+!XTerm*color13:    rgb:ef/9e/be
+!XTerm*color14:    rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Sixteen
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:be/be/be
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:9e/18/28
+!XTerm*color2:     rgb:ae/ce/92
+!XTerm*color3:     rgb:96/8a/38
+!XTerm*color4:     rgb:41/41/71
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:cf/61/71
+!XTerm*color10:    rgb:c5/f7/79
+!XTerm*color11:    rgb:ff/f7/96
+!XTerm*color12:    rgb:41/86/be
+!XTerm*color13:    rgb:cf/9e/be
+!XTerm*color14:    rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Seventeen
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:e5/e5/e5
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:ff/00/00
+!XTerm*color2:     rgb:00/ff/00
+!XTerm*color3:     rgb:ff/ff/00
+!XTerm*color4:     rgb:00/00/ff
+!XTerm*color5:     rgb:ff/00/ff
+!XTerm*color6:     rgb:00/ff/ff
+!XTerm*color7:     rgb:ff/ff/ff
+!XTerm*color8:     rgb:ff/d3/9b
+!XTerm*color9:     rgb:ff/82/47
+!XTerm*color10:    rgb:ff/82/ab
+!XTerm*color11:    rgb:87/ce/fa
+!XTerm*color12:    rgb:ff/ff/ff
+!XTerm*color13:    rgb:ff/ff/ff
+!XTerm*color14:    rgb:ff/ff/ff
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Eighteen
+!XTerm*color0:  rgb:00/00/00
+!XTerm*color1:  rgb:9e/18/28
+!XTerm*color2:  rgb:5c/b2/47
+!XTerm*color3:  rgb:96/8a/38
+!XTerm*color4:  rgb:41/61/a0
+!XTerm*color5:  rgb:9b/76/8e
+!XTerm*color6:  rgb:41/91/89
+!XTerm*color7:  rgb:be/be/be   
+!XTerm*color8:  rgb:66/66/66
+!XTerm*color9:  rgb:cf/61/71
+!XTerm*color10: rgb:c5/f7/79
+!XTerm*color11: rgb:ff/f7/96
+!XTerm*color12: rgb:41/86/be
+!XTerm*color13: rgb:cf/9e/be
+!XTerm*color14: rgb:71/be/be
+!XTerm*color15: rgb:dd/dd/dd
+!
+!!Theme Nineteen
+!XTerm*color0:  rgb:00/00/00
+!XTerm*color1:  rgb:b0/70/50
+!XTerm*color2:  rgb:12/91/4e
+!XTerm*color3:  rgb:a0/a0/70
+!XTerm*color4:  rgb:3e/45/81
+!XTerm*color5:  rgb:a0/70/a0
+!XTerm*color6:  rgb:70/a0/a0
+!XTerm*color7:  rgb:a0/a0/a0
+!XTerm*color8:  rgb:60/60/60
+!XTerm*color9:  rgb:b0/70/50
+!XTerm*color10: rgb:12/91/4e
+!XTerm*color11: rgb:c0/c0/90
+!XTerm*color12: rgb:3e/45/81
+!XTerm*color13: rgb:c0/90/c0
+!XTerm*color14: rgb:90/c0/c0
+!XTerm*color15: rgb:ff/ff/ff
+!
+!!Theme Twenty
+!XTerm*foreground: rgb:aa/aa/aa
+!XTerm*background: rgb:00/00/00
+!XTerm*color0:     rgb:30/34/30
+!XTerm*color1:     rgb:bf/79/79
+!XTerm*color2:     rgb:97/b2/6b
+!XTerm*color3:     rgb:cd/cd/c1
+!XTerm*color4:     rgb:86/a2/be
+!XTerm*color5:     rgb:d9/b7/98
+!XTerm*color6:     rgb:a1/b5/cd
+!XTerm*color7:     rgb:ff/ff/ff
+!XTerm*color8:     rgb:cd/b5/cd
+!XTerm*color9:     rgb:f4/a4/5f
+!XTerm*color10:    rgb:c5/f7/79
+!XTerm*color11:    rgb:ff/ff/ef
+!XTerm*color12:    rgb:98/af/d9
+!XTerm*color13:    rgb:d7/d9/98
+!XTerm*color14:    rgb:a1/b5/cd
+!XTerm*color15:    rgb:de/de/de
+!
+!!Theme Twenty-One
+!XTerm*background: rgb:1a/1a/1a
+!XTerm*foreground: rgb:aa/aa/aa
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color1:     rgb:9e/18/28
+!XTerm*color9:     rgb:bc/57/66
+!XTerm*color2:     rgb:00/88/00
+!XTerm*color10:    rgb:61/a1/71
+!XTerm*color3:     rgb:d2/bb/4b
+!XTerm*color11:    rgb:e7/db/52
+!XTerm*color4:     rgb:41/41/71
+!XTerm*color12:    rgb:50/85/af
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color13:    rgb:a9/7a/99
+!XTerm*color6:     rgb:41/81/79
+!XTerm*color14:    rgb:6b/a4/a4
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Twenty-Two
+!XTerm*background: rgb:00/00/00
+!XTerm*foreground: rgb:be/be/be
+!XTerm*color0:     rgb:00/00/00
+!XTerm*color1:     rgb:d3/62/65
+!XTerm*color2:     rgb:ae/ce/91
+!XTerm*color3:     rgb:e7/e1/8c
+!XTerm*color4:     rgb:7a/7a/b0
+!XTerm*color5:     rgb:96/3c/59
+!XTerm*color6:     rgb:7f/9f/7f
+!XTerm*color7:     rgb:be/be/be
+!XTerm*color8:     rgb:66/66/66
+!XTerm*color9:     rgb:ef/81/71
+!XTerm*color10:    rgb:e5/f7/79
+!XTerm*color11:    rgb:f0/df/af
+!XTerm*color12:    rgb:8e/9f/bc
+!XTerm*color13:    rgb:ef/9e/be
+!XTerm*color14:    rgb:71/be/be
+!XTerm*color15:    rgb:ff/ff/ff
+!
+!!Theme Twenty-Three
+!XTerm*background:   rgb:0e/0e/0e
+!XTerm*foreground:   rgb:4a/d5/e1
+!XTerm*color0:       rgb:00/00/00
+!XTerm*color1:       rgb:dc/74/d1
+!XTerm*color2:       rgb:0e/b8/c7
+!XTerm*color3:       rgb:df/e3/7e
+!!*color4: ???
+!XTerm*color5:       rgb:9e/88/f0
+!XTerm*color6:       rgb:73/f7/ff
+!XTerm*color7:       rgb:e1/dd/dd
+!XTerm*color8:       rgb:8b/8f/93
+!XTerm*color9:       rgb:dc/74/d1
+!XTerm*color10:      rgb:0e/b8/c7
+!XTerm*color11:      rgb:df/e3/7e
+!XTerm*color13:      rgb:9e/88/f0
+!XTerm*color14:      rgb:73/f7/ff
+!XTerm*color15:      rgb:e1/dd/dd
+!
+!!Theme Twenty-Four
+!XTerm*color0:  rgb:00/00/00
+!XTerm*color1:  rgb:cd/5c/5c
+!XTerm*color2:  rgb:8e/ae/71
+!XTerm*color3:  rgb:d2/b4/8c
+!XTerm*color4:  rgb:5f/7b/8a
+!XTerm*color5:  rgb:cd/cd/b4
+!XTerm*color6:  rgb:68/68/68
+!XTerm*color7:  rgb:ff/ff/ff
+!XTerm*color8:  rgb:00/00/00
+!XTerm*color9:  rgb:ee/63/63
+!XTerm*color10: rgb:95/c7/49
+!XTerm*color11: rgb:cd/cd/c1
+!XTerm*color12: rgb:6b/7b/8a
+!XTerm*color13: rgb:cd/cd/b4
+!XTerm*color14: rgb:77/87/98
+!XTerm*color15: rgb:ca/ca/ca
+!
+!!Theme Twenty-Five
+!XTerm*color0:  rgb:00/00/00
+!XTerm*color1:  rgb:80/00/00
+!XTerm*color2:  rgb:00/80/00
+!XTerm*color3:  rgb:d0/d0/90
+!XTerm*color4:  rgb:00/00/80
+!XTerm*color5:  rgb:80/00/80
+!XTerm*color6:  rgb:a6/ca/f0
+!XTerm*color7:  rgb:d0/d0/d0
+!XTerm*color8:  rgb:b0/b0/b0
+!XTerm*color9:  rgb:f0/80/60
+!XTerm*color10: rgb:60/f0/80
+!XTerm*color11: rgb:e0/c0/60
+!XTerm*color12: rgb:80/c0/e0
+!XTerm*color13: rgb:f0/c0/f0
+!XTerm*color14: rgb:c0/d8/f8
+!XTerm*color15: rgb:e0/e0/e0
+!
+!!!colors ripped from rezza: http://metawire.org/~rezza/index.php
+!XTerm*foreground:     rgb:dd/dd/dd
+!XTerm*background:     rgb:22/22/22
+!XTerm*color0:         rgb:19/19/19
+!XTerm*color1:         rgb:80/32/32
+!XTerm*color2:         rgb:5b/76/2f
+!XTerm*color3:         rgb:aa/99/43
+!XTerm*color4:         rgb:32/4c/80
+!XTerm*color5:         rgb:70/6c/9a
+!XTerm*color6:         rgb:92/b1/9e
+!XTerm*color7:         rgb:ff/ff/ff
+!XTerm*color8:         rgb:25/25/25
+!XTerm*color9:         rgb:98/2b/2b
+!XTerm*color10:        rgb:89/b8/3f
+!XTerm*color11:        rgb:ef/ef/60
+!XTerm*color12:        rgb:2b/4f/98
+!XTerm*color13:        rgb:82/6a/b1
+!XTerm*color14:        rgb:a1/cd/cd
+!XTerm*color15:        rgb:dd/dd/dd
+
+! Xft Settings
+Xft.antialias:				true
+Xft.dpi:				96
+Xft.hinting:				true
+Xft.hintstyle:				1
+Xft.rgba:				1
+Xft.lcdfilter:				1
+
+! XTerm Settings
+!! Configuration
+XTerm*loginShell:			true
+XTerm*termName:				xterm-256color
+XTerm*depth:				24
+XTerm*saveLines:			65536
+XTerm*visualBell:			true
+XTerm*cutchars:				()*;<>[]{|}
+XTerm*print-pipe:			cat > $(echo XTerm.dump.$(date +'%Y%M%d%H%m%S'))
+!XTerm*keysym.Home:			\033[1~
+!XTerm*keysym.End:			\033[4~
+!XTerm*geometry:			80x24
+!XTerm*deleteIsDEL:			true
+!XTerm*backarrowKey:			true
+!! Fonts
+XTerm*font:				xft:Consolas:pixelsize=14:style=regular
+XTerm*boldFont:				xft:Consolas:pixelsize=14:style=bold
+!! Colors
+XTerm*background:			rgb:00/00/00
+XTerm*foreground:			rgb:a8/a8/a8
+XTerm*color0:				rgb:00/00/00
+XTerm*color1:				rgb:a8/00/00
+XTerm*color2:				rgb:00/a8/00
+XTerm*color3:				rgb:a8/54/00
+XTerm*color4:				rgb:00/00/a8
+XTerm*color5:				rgb:a8/00/a8
+XTerm*color6:				rgb:00/a8/a8
+XTerm*color7:				rgb:a8/a8/a8
+XTerm*color8:				rgb:54/50/54
+XTerm*color9:				rgb:f8/54/50
+XTerm*color10:				rgb:50/fc/50
+XTerm*color11:				rgb:f8/fc/50
+XTerm*color12:				rgb:50/54/f8
+XTerm*color13:				rgb:f8/54/f8
+XTerm*color14:				rgb:50/fc/f8
+XTerm*color15:				rgb:f8/fc/f8
+XTerm*cursorColor:			rgb:ff/cc/00
+!! Transparency
+XTerm*transparent:			true
+XTerm*tintColor:			gray
+XTerm*shading:				25
+!! Extensions
+XTerm.perl-ext-common:			default,tabbed,matcher
+!!! Tabbing
+!!!! Shift+Down				new tab
+!!!! Shift+Left				go to left tab
+!!!! Shift+Right			go to right tab
+!!!! Ctrl+Left				move tab to the left
+!!!! Ctrl+Right				move tab to the right
+!!!! Ctrl+D:				close tab
+XTerm.tabbed.tabbar-fg:			2
+XTerm.tabbed.tabbar-bg:			0
+XTerm.tabbed.tab-fg:			3
+XTerm.tabbed.tab-bg:			0
+!!! Matching
+XTerm.urlLauncher:			/usr/local/bin/chrome "%s"
+XTerm.matcher.button:			1
+XTerm.matcher.pattern.1:		\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+!! Scrolling
+XTerm*scrollBar:			false
+XTerm*scrollstyle:			plain
+XTerm*scrollBar_right:			false
+XTerm*scrollColor:			rgb:77/77/77
+XTerm*secondaryScroll:			true
+ 
+! Dunst Configuration
+Dunst*Font:				Consolas-10
+Dunst*Geometry:				0x10-20+20
+Dunst*IndicateHidden:			yes
+Dunst*Format:				"%s %b"
+Dunst*IdleThreshold:			120
+Dunst*LowBackground:			#339933
+Dunst*LowForeground:			#000000
+Dunst*LowTimeout:			10
+Dunst*NormalBackground:			#ffcc00
+Dunst*NormalForeground:			#000000
+Dunst*NormalTimeout:			10
+Dunst*CriticalBackground:		#cc0000
+Dunst*CriticalForeground:		#ffffff
+Dunst*CriticalTimeout:			10
+
+! DMenu Configuration
+!! Default Theme
+DMenu*Font:				Consolas-10
+DMenu*Foreground:			rgb:bb/bb/bb
+DMenu*Background:			rgb:22/22/22
+DMenu*SelectedForeground:		rgb:ee/ee/ee
+DMenu*SelectedBackground:		rgb:00/55/77
+!!! DMenu*Foreground:			rgb:6b/6b/6b
+!!! DMenu*Background:			rgb:22/22/22
+!!! DMenu*SelectedForeground:		rgb:00/00/00
+!!! DMenu*SelectedBackground:		rgb:cc/55/00
+
+! DWM Configuration
+!! Default Theme
+Dwm*Font:				Consolas-10
+Dwm*DefaultTerminal:			urxvt
+Dwm*NormalBorderColor:			rgb:44/44/44
+Dwm*NormalBgColor:			rgb:22/22/22
+Dwm*NormalFgColor:			rgb:bb/bb/bb
+Dwm*SelectedBorderColor:		rgb:00/55/77
+Dwm*SelectedBgColor:			rgb:00/55/77
+Dwm*SelectedFgColor:			rgb:ee/ee/ee
+!!! Dwm*NormalBorderColor:		rgb:c3/56/17
+!!! Dwm*NormalBgColor:			rgb:22/22/22
+!!! Dwm*NormalFgColor:			rgb:ff/ff/ff
+!!! Dwm*SelectedBorderColor:		rgb:cc/55/00
+!!! Dwm*SelectedBgColor:		rgb:cc/55/00
+!!! Dwm*SelectedFgColor:		rgb:00/00/00
+
+! XPdf Configuration
+xpdf*enableFreetype:			yes
+xpdf*antialias:				yes
+xpdf*foreground:			black
+xpdf*background:			white
+xpdf*urlCommand:			/usr/local/bin/chrome %s
