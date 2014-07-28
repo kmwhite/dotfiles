@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/vim-nerdcommenter"]
 	path = .vim/bundle/vim-nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/vim-syntastic"]
+	path = .vim/bundle/vim-syntastic
+	url = https://github.com/scrooloose/syntastic.git
