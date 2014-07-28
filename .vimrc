@@ -1,5 +1,10 @@
 " Vim Configuration File
 
+" Pathogen Setup
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#runtime_append_all_bundles()
+execute pathogen#helptags()
+
 " Disable Arrow Keys
 " inoremap <Left>  <NOP>
 " inoremap <Right> <NOP>
