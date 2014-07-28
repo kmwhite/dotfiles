@@ -8,7 +8,7 @@ if [ -f "${HOME}/.gpg-agent-info" ]; then
 else
     eval $(gpg-agent --daemon --enable-ssh-support --write-env-file "${HOME}/.gpg-agent-info")
 fi
- 
+
 # Start the SSH Agent
 if [ -z "${SSH_AUTH_SOCK}" ] || [ -z "${SSH_AGENT_PID}" ]; then
     eval `ssh-agent`
@@ -21,7 +21,7 @@ if [ -d "$CONFIG_DIR" ]; then
     printf "\x1b[33mLoading configs:\x1b[00m\n"
     for CONFIG_FILE in `ls ${CONFIG_DIR}/*.cfg`; do
         printf "    \x1b[33m${CONFIG_FILE}...\x1b[00m"
-        . "${CONFIG_DIR}/${CONFIG_FILE}" 2>/dev/null && \
+        . "${CONFIG_FILE}" 2>/dev/null && \
                 printf " \x1b[32mOK!\x1b[00m " || \
                 printf " \x1b[31mFAILURE!\x1b[00m "
         printf "\n"
