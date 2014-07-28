@@ -26,3 +26,5 @@
 	dc = diff --cached
 	c = commit
 	a = add
+[push]
+	default = simple
