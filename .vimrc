@@ -56,7 +56,7 @@ set bex=~                              " set the backup-extension
 set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
 syntax on                              " syntax highlighing
-colo sunburst
+colo Sunburst
 
 " Modelines
 set modeline                           " last lines in document sets Vim mode
