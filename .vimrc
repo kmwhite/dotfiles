@@ -2,7 +2,7 @@
 
 " Pathogen Setup
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 execute pathogen#helptags()
 
 " Disable Arrow Keys
@@ -160,7 +160,7 @@ if has("autocmd")
         \ setlocal autoindent|
         \ setlocal expandtab|
         \ setlocal nospell
-    
+
     " Make
     autocmd FileType make
         \ setlocal tabstop=8|
@@ -259,7 +259,7 @@ imap <Esc>Ox 8
 imap <Esc>Oy 9
 imap <Esc>Oz 0
 
-" 
+"
 " " 256 Colors for Vim
 " hi x016_Grey0 ctermfg=16 guifg=#000000
 " hi x017_NavyBlue ctermfg=17 guifg=#00005f
