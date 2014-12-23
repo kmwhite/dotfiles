@@ -22,6 +22,7 @@ set nocompatible                       " use Vim, not Vi
 set ttyfast                            " smoother changes, alt:nottyfast
 set virtualedit+=block                 " draw past eol with draw.vim
 set showcmd                            " display incomplete commands
+set noerrorbells                       " disable audible bells,
 set visualbell                         " turn on visual bell, alt:novisualbell
 set visualbell t_vb="<Esc>|f"          " turn off error beep/flash
 set shortmess=atI                      " Abbreviate messages
@@ -56,7 +57,7 @@ set bex=~                              " set the backup-extension
 set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
 syntax on                              " syntax highlighing
-colo Sunburst
+colo wombat256mod
 
 " Modelines
 set modeline                           " last lines in document sets Vim mode
@@ -197,6 +198,16 @@ if has("autocmd")
         \ setlocal autoindent|
         \ setlocal nospell
 
+    " HTML
+    autocmd BufNewFile,BufRead *.html.* setfiletype html
+    autocmd FileType html
+        \ setlocal textwidth=75|
+        \ setlocal tabstop=2|
+        \ setlocal softtabstop=2|
+        \ setlocal shiftwidth=2|
+        \ setlocal expandtab|
+        \ setlocal spell
+
     " Plaintext
     autocmd BufNewFile,BufRead *.txt setfiletype plaintext
     autocmd FileType plaintext
@@ -224,7 +235,6 @@ map ,u :source ~/.vimrc<cr>                              " update the system set
 
 " Write out html file
 map ,h :source $VIM/vim71/syntax/2html.vim<cr>:w<cr>:clo<cr>
-
 
 " Functions
 source ~/.vim/functions/toggle_overlength_hilight.vim
