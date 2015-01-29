@@ -43,7 +43,9 @@ case "$(uname)" in
         alias pkg_add="sudo pkg_add -r"
         ;;
     NetBSD)  ;;
-    Linux)   ;;
+    Linux)
+        alias ls="ls --color='auto'"
+        ;;
     *)       ;;
 esac
 
