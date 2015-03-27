@@ -54,16 +54,3 @@ esac
 set -o emacs
 bind "^I=complete"
 ####
-
-#### Set up our prompts
-# Prompt Color Legend:
-# Green:        PS1, Last command was successful
-# Red:          PS1, Last command was unsuccessful
-# Yellow:       PS2, Incomplete command entered
-# Blue:         PS3, Select statement menu prompt
-# Purple:       PS4, Debug mode
-export PS1='[01;37m[\w] [01;`last_status`m$>[0m '      # Primary Prompt
-export PS2='[01;37m[\w] [01;33m$>[0m     '             # Incomplete Command
-export PS3='[01;37m[\w] [01;34m$>[0m '                 # KSH Select Prompt
-export PS4='[01;37m[\w] [01;35m$>[0m '                 # Debug Prompt (set -x)
-####
