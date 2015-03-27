@@ -101,6 +101,16 @@ if has("autocmd")
     " Restore cursor position and set line
     autocmd BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
+    " Shell
+    autocmd Filetype sh
+        \ setlocal textwidth=75|
+        \ setlocal tabstop=2|
+        \ setlocal softtabstop=2|
+        \ setlocal shiftwidth=2|
+        \ setlocal autoindent|
+        \ setlocal expandtab|
+        \ setlocal nospell
+
     " Python
     " http://svn.python.org/projects/python/trunk/Misc/Vim/
     autocmd Filetype python
