@@ -55,4 +55,5 @@ if [[ $- == *i* ]]; then
     bind "^I=complete"
     ####
 fi
+
 PATH="/home/kristofer/.local/heroku/bin:$PATH"
