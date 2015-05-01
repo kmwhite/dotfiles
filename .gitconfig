@@ -26,5 +26,6 @@
 	dc = diff --cached
 	c = commit
 	a = add
+	pr = pull --rebase
 [push]
 	default = simple
