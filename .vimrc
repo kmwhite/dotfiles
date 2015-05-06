@@ -30,6 +30,7 @@ set encoding=iso-8859-1                " We aren't cool enough for UTF-8
 set fileencoding=ascii                 " We aren't cool enough for UTF-8
 set backspace=indent,eol,start         " Allow the erasure of data from a
                                        " another INSERT session
+set tabpagemax=100                     " Increase tabs opened by `-p`
 filetype plugin indent on
 " helptags ~/.vim/doc                  " loading the Vim helptags
 set notitle                            " disable "Thanks for flying vim"
