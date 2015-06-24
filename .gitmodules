@@ -28,3 +28,6 @@
 [submodule ".config/base16-shell"]
 	path = .config/base16-shell
 	url = https://github.com/chriskempson/base16-shell.git
+[submodule ".vim/bundle/vim-dash"]
+	path = .vim/bundle/vim-dash
+	url = https://github.com/rizzatti/dash.vim.git
