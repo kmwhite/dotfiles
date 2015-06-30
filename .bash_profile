@@ -51,8 +51,7 @@ if [[ $- == *i* ]]; then
 
     #### Set up the shell
     # Shell Based Configuration
-    set -o emacs
-    bind "^I=complete"
+    set -o vi
     ####
 fi
 
