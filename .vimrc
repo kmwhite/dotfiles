@@ -26,8 +26,6 @@ set noerrorbells                       " disable audible bells,
 set visualbell                         " turn on visual bell, alt:novisualbell
 set visualbell t_vb="<Esc>|f"          " turn off error beep/flash
 set shortmess=atI                      " Abbreviate messages
-set encoding=iso-8859-1                " We aren't cool enough for UTF-8
-set fileencoding=ascii                 " We aren't cool enough for UTF-8
 set backspace=indent,eol,start         " Allow the erasure of data from a
                                        " another INSERT session
 set tabpagemax=100                     " Increase tabs opened by `-p`
@@ -84,6 +82,20 @@ set ruler                              " show the cursor position, alt:noruler
                                        " set rulerformat=%15(%c%V\ %p%%%)
 " Statusbar
 set ls=2                               " always show status line "%{fugitive#statusline()}"
+
+" FileEncoding Magic!
+if has("multi_byte")
+  if &termencoding == ""
+    let &termencoding = &encoding
+  endif
+  set encoding=utf-8
+  setglobal fileencoding=utf-8
+  "setglobal bomb
+  set fileencodings=ucs-bom,utf-8,latin1
+else
+  set encoding=iso-8859-1                " We aren't cool enough for UTF-8
+  set fileencoding=ascii                 " We aren't cool enough for UTF-8
+endif
 
 " AutoCommand Magic!
 if has("autocmd")
