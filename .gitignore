@@ -1,3 +1,5 @@
 .vim/bak/
 .gnupg/
 .mutt/configs/accounts.rc
+.vim/.netrwhist
+.viminfo
