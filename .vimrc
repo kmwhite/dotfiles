@@ -32,12 +32,8 @@ set tabpagemax=100                     " Increase tabs opened by `-p`
 
 " helptags ~/.vim/doc                  " loading the Vim helptags
 set notitle                            " disable "Thanks for flying vim"
-"set mouse=a                           " enable a more sane pasting
 
 " Tabs, Indent and Whitespace (DEFAULTS: Overriden by autocmd)
-"set tabstop=2                          " numbers of spaces of tab character
-"set shiftwidth=2                       " numbers of spaces to (auto)indent
-"set expandtab                          " enable tab expanding
 set noautoindent                       " alt:autoindent
 set nosmartindent                      " alt:smartindent
 set nocindent                          " alt:cindent
@@ -56,8 +52,6 @@ set bex=~                              " set the backup-extension
 set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
 syntax on                              " syntax highlighing
-" let base16colorspace=256               " Access colors present in 256 colorspace
-" set background=dark
 colo crayon
 
 " Modelines
@@ -246,12 +240,8 @@ cmap WQ wq
 cmap WW w !sudo tee 1>/dev/null %<CR>l<CR>
 
 " Keyboard mappings
-map ,v :sp ~/.vimrc<cr>                                  " edit my .vimrc file in a split
 map ,e :e ~/.vimrc<cr>                                   " edit my .vimrc file
 map ,u :source ~/.vimrc<cr>                              " update the system settings from my vimrc file
-
-" Write out html file
-map ,h :source $VIM/vim71/syntax/2html.vim<cr>:w<cr>:clo<cr>
 
 " Functions
 source ~/.vim/functions/toggle_overlength_hilight.vim
