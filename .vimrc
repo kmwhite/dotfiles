@@ -6,16 +6,10 @@ execute pathogen#infect()
 execute pathogen#helptags()
 
 " Disable Arrow Keys
-" inoremap <Left>  <NOP>
-" inoremap <Right> <NOP>
-" inoremap <Up>    <NOP>
-" inoremap <Down>  <NOP>
-
-" Setup ctrl+<nav> for splits
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
-map <c-h> <c-w>h
+noremap <Left>  <NOP>
+noremap <Right> <NOP>
+noremap <Up>    <NOP>
+noremap <Down>  <NOP>
 
 " General Configs
 set nocompatible                       " use Vim, not Vi
