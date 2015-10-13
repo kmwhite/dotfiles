@@ -29,7 +29,7 @@ set shortmess=atI                      " Abbreviate messages
 set backspace=indent,eol,start         " Allow the erasure of data from a
                                        " another INSERT session
 set tabpagemax=100                     " Increase tabs opened by `-p`
-filetype plugin indent on
+
 " helptags ~/.vim/doc                  " loading the Vim helptags
 set notitle                            " disable "Thanks for flying vim"
 "set mouse=a                           " enable a more sane pasting
@@ -104,11 +104,13 @@ if has("autocmd")
     if $HOME !~# '^/Users/'
         filetype off " Debian preloads this before the runtimepath is set
     endif
-    if version>600
-        filetype plugin indent on
-    else
-        filetype on
-    endif
+
+    " TODO Figure out why this is slow as fuck
+    " if version>600
+    "     filetype plugin indent on
+    " else
+    "     filetype on
+    " endif
 
     " Auto-trim trailing whitespaces
     autocmd BufWritePre * :%s/\s\+$//e
