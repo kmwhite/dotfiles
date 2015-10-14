@@ -224,6 +224,17 @@ if has("autocmd")
         \ setlocal noexpandtab|
         \ setlocal spell
 
+    " Git Commit Messages
+    autocmd BufNewFile,BufRead COMMIT_EDITMSG setfiletype gitcommit
+    autocmd FileType gitcommit
+        \ setlocal backspace=2|
+        \ setlocal textwidth=72|
+        \ setlocal tabstop=8|
+        \ setlocal softtabstop=8|
+        \ setlocal shiftwidth=8|
+        \ setlocal noexpandtab|
+        \ setlocal spell
+
     " Omni-complete Enabling
     inoremap <Nul> <C-x><C-o>
 
