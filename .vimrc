@@ -94,12 +94,11 @@ if has("autocmd")
         filetype off " Debian preloads this before the runtimepath is set
     endif
 
-    " TODO Figure out why this is slow as fuck
-    " if version>600
-    "     filetype plugin indent on
-    " else
-    "     filetype on
-    " endif
+    if version > 600
+        filetype plugin indent on
+    else
+        filetype on
+    endif
 
     " Auto-trim trailing whitespaces
     autocmd BufWritePre * :%s/\s\+$//e
