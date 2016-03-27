@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-dash"]
 	path = .vim/bundle/vim-dash
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule ".vim/bundle/vim-rbenv"]
+	path = .vim/bundle/vim-rbenv
+	url = git://github.com/tpope/vim-rbenv.git
