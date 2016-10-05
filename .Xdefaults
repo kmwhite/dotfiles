@@ -552,47 +552,47 @@ Xft.lcdfilter:				1
 
 ! XTerm Settings
 !! Configuration
-XTerm*loginShell:			true
-XTerm*termName:				xterm-256color
-XTerm*depth:				24
-XTerm*saveLines:			65536
-XTerm*visualBell:			true
-XTerm*cutchars:				()*;<>[]{|}
-XTerm*print-pipe:			cat > $(echo XTerm.dump.$(date +'%Y%M%d%H%m%S'))
+URxvt*loginShell:			true
+URxvt*termName:				xterm-256color
+URxvt*depth:				24
+URxvt*saveLines:			65536
+URxvt*visualBell:			true
+URxvt*cutchars:				()*;<>[]{|}
+URxvt*print-pipe:			cat > $(echo XTerm.dump.$(date +'%Y%M%d%H%m%S'))
 !XTerm*keysym.Home:			\033[1~
 !XTerm*keysym.End:			\033[4~
 !XTerm*geometry:			80x24
 !XTerm*deleteIsDEL:			true
 !XTerm*backarrowKey:			true
 !! Fonts
-XTerm*font:				xft:Consolas:pixelsize=14:style=regular
-XTerm*boldFont:				xft:Consolas:pixelsize=14:style=bold
+URxvt*font:				xft:Consolas:pixelsize=14:style=regular
+URxvt*boldFont:				xft:Consolas:pixelsize=14:style=bold
 !! Colors
-XTerm*background:			rgb:00/00/00
-XTerm*foreground:			rgb:a8/a8/a8
-XTerm*color0:				rgb:00/00/00
-XTerm*color1:				rgb:a8/00/00
-XTerm*color2:				rgb:00/a8/00
-XTerm*color3:				rgb:a8/54/00
-XTerm*color4:				rgb:00/00/a8
-XTerm*color5:				rgb:a8/00/a8
-XTerm*color6:				rgb:00/a8/a8
-XTerm*color7:				rgb:a8/a8/a8
-XTerm*color8:				rgb:54/50/54
-XTerm*color9:				rgb:f8/54/50
-XTerm*color10:				rgb:50/fc/50
-XTerm*color11:				rgb:f8/fc/50
-XTerm*color12:				rgb:50/54/f8
-XTerm*color13:				rgb:f8/54/f8
-XTerm*color14:				rgb:50/fc/f8
-XTerm*color15:				rgb:f8/fc/f8
-XTerm*cursorColor:			rgb:ff/cc/00
+URxvt*background:			rgb:00/00/00
+URxvt*foreground:			rgb:a8/a8/a8
+URxvt*color0:				rgb:00/00/00
+URxvt*color1:				rgb:a8/00/00
+URxvt*color2:				rgb:00/a8/00
+URxvt*color3:				rgb:a8/54/00
+URxvt*color4:				rgb:00/00/a8
+URxvt*color5:				rgb:a8/00/a8
+URxvt*color6:				rgb:00/a8/a8
+URxvt*color7:				rgb:a8/a8/a8
+URxvt*color8:				rgb:54/50/54
+URxvt*color9:				rgb:f8/54/50
+URxvt*color10:				rgb:50/fc/50
+URxvt*color11:				rgb:f8/fc/50
+URxvt*color12:				rgb:50/54/f8
+URxvt*color13:				rgb:f8/54/f8
+URxvt*color14:				rgb:50/fc/f8
+URxvt*color15:				rgb:f8/fc/f8
+URxvt*cursorColor:			rgb:ff/cc/00
 !! Transparency
-XTerm*transparent:			true
-XTerm*tintColor:			gray
-XTerm*shading:				25
+URxvt*transparent:			true
+URxvt*tintColor:			gray
+URxvt*shading:				25
 !! Extensions
-XTerm.perl-ext-common:			default,tabbed,matcher
+URxvt.perl-ext-common:			default,tabbed,matcher
 !!! Tabbing
 !!!! Shift+Down				new tab
 !!!! Shift+Left				go to left tab
@@ -600,21 +600,21 @@ XTerm.perl-ext-common:			default,tabbed,matcher
 !!!! Ctrl+Left				move tab to the left
 !!!! Ctrl+Right				move tab to the right
 !!!! Ctrl+D:				close tab
-XTerm.tabbed.tabbar-fg:			2
-XTerm.tabbed.tabbar-bg:			0
-XTerm.tabbed.tab-fg:			3
-XTerm.tabbed.tab-bg:			0
+URxvt.tabbed.tabbar-fg:			2
+URxvt.tabbed.tabbar-bg:			0
+URxvt.tabbed.tab-fg:			3
+URxvt.tabbed.tab-bg:			0
 !!! Matching
-XTerm.urlLauncher:			/usr/local/bin/chrome "%s"
-XTerm.matcher.button:			1
-XTerm.matcher.pattern.1:		\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt.urlLauncher:			/usr/local/bin/chrome "%s"
+URxvt.matcher.button:			1
+URxvt.matcher.pattern.1:		\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 !! Scrolling
-XTerm*scrollBar:			false
-XTerm*scrollstyle:			plain
-XTerm*scrollBar_right:			false
-XTerm*scrollColor:			rgb:77/77/77
-XTerm*secondaryScroll:			true
- 
+URxvt*scrollBar:			false
+URxvt*scrollstyle:			plain
+URxvt*scrollBar_right:			false
+URxvt*scrollColor:			rgb:77/77/77
+URxvt*secondaryScroll:			true
+
 ! Dunst Configuration
 Dunst*Font:				Consolas-10
 Dunst*Geometry:				0x10-20+20
