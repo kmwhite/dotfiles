@@ -1,0 +1,24 @@
+! ----------------------------------------------------------------------------
+! author:   Kristofer M White <me@kmwhite.net>
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+!Theme Fourteen
+URxvt*background: rgb:95/95/95
+URxvt*foreground: rgb:00/00/00
+URxvt*color0:     rgb:7f/7f/7f
+URxvt*color1:     rgb:cd/00/00
+URxvt*color2:     rgb:00/8b/00
+URxvt*color3:     rgb:ee/ee/00
+URxvt*color4:     rgb:00/00/cd
+URxvt*color5:     rgb:cd/00/cd
+URxvt*color6:     rgb:00/ee/ee
+URxvt*color7:     rgb:fa/eb/d7
+URxvt*color8:     rgb:e5/e5/e5
+URxvt*color9:     rgb:80/00/00
+URxvt*color10:    rgb:00/50/20
+URxvt*color11:    rgb:99/55/00
+URxvt*color12:    rgb:00/40/80
+URxvt*color13:    rgb:44/33/00
+URxvt*color14:    rgb:30/60/80
+URxvt*color15:    rgb:ff/ff/ff

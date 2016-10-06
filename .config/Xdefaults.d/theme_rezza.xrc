@@ -1,0 +1,24 @@
+! ----------------------------------------------------------------------------
+! author:   Kristofer M White <me@kmwhite.net>
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+!!colors ripped from rezza: http://metawire.org/~rezza/index.php
+URxvt*foreground:     rgb:dd/dd/dd
+URxvt*background:     rgb:22/22/22
+URxvt*color0:         rgb:19/19/19
+URxvt*color1:         rgb:80/32/32
+URxvt*color2:         rgb:5b/76/2f
+URxvt*color3:         rgb:aa/99/43
+URxvt*color4:         rgb:32/4c/80
+URxvt*color5:         rgb:70/6c/9a
+URxvt*color6:         rgb:92/b1/9e
+URxvt*color7:         rgb:ff/ff/ff
+URxvt*color8:         rgb:25/25/25
+URxvt*color9:         rgb:98/2b/2b
+URxvt*color10:        rgb:89/b8/3f
+URxvt*color11:        rgb:ef/ef/60
+URxvt*color12:        rgb:2b/4f/98
+URxvt*color13:        rgb:82/6a/b1
+URxvt*color14:        rgb:a1/cd/cd
+URxvt*color15:        rgb:dd/dd/dd

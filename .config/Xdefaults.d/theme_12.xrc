@@ -1,0 +1,24 @@
+! ----------------------------------------------------------------------------
+! author:   Kristofer M White <me@kmwhite.net>
+! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
+! ----------------------------------------------------------------------------
+
+!Theme Twelve
+URxvt*foreground: rgb:ff/ff/ff
+URxvt*background: rgb:00/00/00
+URxvt*color0:     rgb:00/00/00
+URxvt*color1:     rgb:bf/72/76
+URxvt*color2:     rgb:86/af/80
+URxvt*color3:     rgb:96/8a/38
+URxvt*color4:     rgb:36/73/b5
+URxvt*color5:     rgb:9a/70/b2
+URxvt*color6:     rgb:7a/be/cc
+URxvt*color7:     rgb:db/db/db
+URxvt*color8:     rgb:66/92/af
+URxvt*color9:     rgb:e5/50/5f
+URxvt*color10:    rgb:87/bc/87
+URxvt*color11:    rgb:e0/d9/5c
+URxvt*color12:    rgb:1b/85/d6
+URxvt*color13:    rgb:ad/73/ba
+URxvt*color14:    rgb:33/8e/aa
+URxvt*color15:    rgb:f4/f4/f4
