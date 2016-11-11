@@ -16,7 +16,7 @@ Xft.lcdfilter:				1
 ! Term Settings
 !! Configuration
 URxvt*loginShell:			true
-URxvt*termName:				xterm-256color
+URxvt*termName:				rxvt-256color
 URxvt*depth:				24
 URxvt*saveLines:			65536
 URxvt*visualBell:			true
