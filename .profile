@@ -1,5 +1,9 @@
-# Read when a shell starts
+# If run as an Interactive Shell...
 if [[ $- == *i* ]]; then
+
+    # Set System-Wide Options
+    export PAGER="$(which less)"
+    export EDITOR="$(which vim)"
 
     # Start the SSH Agent
     if [ -z "${SSH_AUTH_SOCK}" ] || [ -z "${SSH_AGENT_PID}" ]; then
@@ -21,7 +25,10 @@ if [[ $- == *i* ]]; then
     fi
 
     # Add to the PATH variable
-    prepend_path "${HOME}/.local/bin"
+    LOCAL_BIN="${HOME}/.local/bin"
+    if [ -e "${LOCAL_BIN}" ]; then
+        export PATH="${LOCAL_BIN}:${PATH}"
+    fi
 
     # Platform Based Configuration
     case "$(uname)" in
