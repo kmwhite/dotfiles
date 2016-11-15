@@ -41,7 +41,6 @@ if [[ $- == *i* ]]; then
             if [ -f ${HOME}/.termcap ]; then
               export TERMCAP=$(< ${HOME}/.termcap)
             fi
-            alias pkg_add="sudo pkg_add -r"
             ;;
         NetBSD)  ;;
         Linux)
