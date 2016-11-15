@@ -1,19 +1,10 @@
 # Read when a shell starts
 if [[ $- == *i* ]]; then
-    # Read in the GPG Agent Info, if it is available
-    if [ -f "${HOME}/.gpg-agent-info" ]; then
-        . "${HOME}/.gpg-agent-info"
-        export GPG_AGENT_INFO
-        export SSH_AUTH_SOCK
-    else
-        eval $(gpg-agent --daemon --enable-ssh-support --write-env-file "${HOME}/.gpg-agent-info")
-    fi
 
     # Start the SSH Agent
     if [ -z "${SSH_AUTH_SOCK}" ] || [ -z "${SSH_AGENT_PID}" ]; then
         eval `ssh-agent`
     fi
-
 
     # Load shell helpers
     CONFIG_DIR="${HOME}/.config/bash"
