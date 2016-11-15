@@ -57,5 +57,3 @@ if [[ $- == *i* ]]; then
     set -o vi
     ####
 fi
-
-PATH="/home/kristofer/.local/heroku/bin:$PATH"
