@@ -254,5 +254,6 @@ source ~/.vim/functions/toggle_search_hilight.vim
 source ~/.vim/functions/toggle_spelling_hilight.vim
 source ~/.vim/functions/toggle_cursor_hilight.vim
 
-" Plugin Fixes
-let g:NERDTreeDirArrows=0
+" NERDTree Icon Overrides.
+let g:NERDTreeDirArrowExpandable="→"
+let g:NERDTreeDirArrowCollapsible="↘"
