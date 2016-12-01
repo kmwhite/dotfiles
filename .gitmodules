@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/vim-rbenv"]
 	path = .vim/bundle/vim-rbenv
 	url = git://github.com/tpope/vim-rbenv.git
+[submodule ".vim/bundle/vim-papercolor"]
+	path = .vim/bundle/vim-papercolor
+	url = https://github.com/NLKNguyen/papercolor-theme
