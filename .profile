@@ -42,11 +42,13 @@ if [[ $- == *i* ]]; then
               export TERMCAP=$(< ${HOME}/.termcap)
             fi
             ;;
-        NetBSD)  ;;
+        NetBSD)
+	    ;;
         Linux)
             alias ls="ls --color='auto'"
             ;;
-        *)       ;;
+        *)
+            ;;
     esac
 
     #### Set up the shell
