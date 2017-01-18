@@ -1,7 +1,7 @@
 " Disable Crap
 set guioptions-=m			"remove menu bar
 set guioptions-=T			"remove toolbar
-set guioptions-=r			"remove right-hand scroll bar
+set guioptions-=r			"remove right-hand scrollbar
 
 " Provide Mappings to Re-Enable Crap
 nnoremap <C-F1> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
