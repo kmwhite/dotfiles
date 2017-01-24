@@ -24,7 +24,7 @@
 	s = status
 	d = diff
 	dc = diff --cached
-	c = commit
+	c = commit -S
 	a = add
 	pr = pull --rebase
 [push]
