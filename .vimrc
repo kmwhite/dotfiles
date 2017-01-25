@@ -72,6 +72,11 @@ set ruler                              " show the cursor position, alt:noruler
 " Statusbar
 set ls=2                               " always show status line "%{fugitive#statusline()}"
 
+" Statusline
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 " FileEncoding Magic!
 if has("multi_byte")
     if &termencoding == ""
@@ -147,7 +152,6 @@ if has("autocmd")
         \ setlocal expandtab|
         \ setlocal nospell|
         \ setlocal omnifunc=rubycomplete#Complete
-    autocmd BufWritePost   *.rb !ruby -c %
 
     " Perl
     autocmd Filetype perl
@@ -258,3 +262,9 @@ source ~/.vim/functions/toggle_cursor_hilight.vim
 " NERDTree Icon Overrides.
 let g:NERDTreeDirArrowExpandable="→"
 let g:NERDTreeDirArrowCollapsible="↘"
+
+" Syntastic Option Overrides.
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
