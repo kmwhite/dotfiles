@@ -26,7 +26,8 @@
 	d = diff
 	dc = diff --cached
 	c = commit -S
-	a = add
+	ai = add --interactive
+	ap = add --patch
 	pr = pull --rebase
 [push]
 	default = simple
