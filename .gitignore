@@ -3,3 +3,6 @@
 .mutt/configs/accounts.rc
 .vim/.netrwhist
 .viminfo
+.config/fish/fundle/**/*
+.config/fish/fishd.*
+.config/fish/completions/*
