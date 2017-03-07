@@ -26,6 +26,7 @@
 	d = diff
 	dc = diff --cached
 	c = commit -S
+	co = checkout
 	ai = add --interactive
 	ap = add --patch
 	pr = pull --rebase
