@@ -26,9 +26,14 @@
 	d = diff
 	dc = diff --cached
 	c = commit -S
+	t = tag -s
 	co = checkout
 	ai = add --interactive
 	ap = add --patch
 	pr = pull --rebase
 [push]
 	default = simple
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
