@@ -11,6 +11,9 @@ noremap <Right> <NOP>
 noremap <Up>    <NOP>
 noremap <Down>  <NOP>
 
+" Vim needs a non-fish shell to run smoothly.
+set shell=/bin/bash
+
 " General Configs
 set nocompatible                       " use Vim, not Vi
 set ttyfast                            " smoother changes, alt:nottyfast
