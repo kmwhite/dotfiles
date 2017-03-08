@@ -264,6 +264,9 @@ cmap WW w !sudo tee 1>/dev/null %<CR>l<CR>
 " Keyboard mappings
 map ,e :e ~/.vimrc<cr>                                   " edit my .vimrc file
 map ,u :source ~/.vimrc<cr>                              " update the system settings from my vimrc file
+map ,h :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+			\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+			\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 
 " Functions
 source ~/.vim/functions/toggle_overlength_hilight.vim
