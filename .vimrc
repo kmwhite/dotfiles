@@ -73,12 +73,21 @@ set nostartofline                      " don't jump to first whitespace in pagin
 set ruler                              " show the cursor position, alt:noruler
                                        " set rulerformat=%15(%c%V\ %p%%%)
 " Statusbar
-set ls=2                               " always show status line "%{fugitive#statusline()}"
-
-" Statusline
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" from https://github.com/spf13/spf13-vim/blob/master/.vimrc
+if has('statusline')
+  set laststatus=2                         " Show statusline (2 lines) on last window
+  " Broken down into easily includeable segments
+  set statusline=%<%f\ (%{&fenc})\             " Filename with Encoding
+  set statusline+=%w%h%m%r                     " Options
+  set statusline+=%{fugitive#statusline()}     " Fuguitive Additions
+  set statusline+=\ [%{&ff}/%Y]                " Filetype
+  set statusline+=\ [%{getcwd()}]              " Current working directory
+  set statusline+=%#warningmsg#
+  set statusline+=%{SyntasticStatuslineFlag()} " Syntastic Additions
+  set statusline+=%*
+  let g:syntastic_enable_signs=1
+  set statusline+=%=%-14.(%l,%c%V%)\ %p%%      " Right aligned file nav info
+endif
 
 " FileEncoding Magic!
 if has("multi_byte")
