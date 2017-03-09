@@ -6,3 +6,4 @@
 .config/fish/fundle/**/*
 .config/fish/fishd.*
 .config/fish/completions/*
+.config/fish/fish_history
