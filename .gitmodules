@@ -18,4 +18,4 @@
 	url = https://github.com/NLKNguyen/papercolor-theme
 [submodule ".vim/bundle/vim-syntastic.git"]
 	path = .vim/bundle/vim-syntastic.git
-	url = git@github.com:vim-syntastic/syntastic.git
+	url = https://github.com/vim-syntastic/syntastic.git
