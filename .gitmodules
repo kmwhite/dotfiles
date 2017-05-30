@@ -22,3 +22,6 @@
 [submodule ".asdf"]
 	path = .asdf
 	url = https://github.com/asdf-vm/asdf.git
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
