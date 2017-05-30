@@ -7,3 +7,4 @@ fundle plugin 'oh-my-fish/theme-batman'
 fundle plugin 'oh-my-fish/plugin-basename-compat'
 
 fundle init
+source ~/.asdf/asdf.fish
