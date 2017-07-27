@@ -1,4 +1,4 @@
-function ToggleSearchHL()
+function! ToggleSearchHL()
        if &hlsearch
             set nohlsearch
             echo "search hilight off"

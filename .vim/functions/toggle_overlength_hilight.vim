@@ -1,4 +1,4 @@
-function ToggleOverLengthHi()
+function! ToggleOverLengthHi()
     if exists("b:overlengthhi") && b:overlengthhi
         highlight clear OverLength
         let b:overlengthhi = 0

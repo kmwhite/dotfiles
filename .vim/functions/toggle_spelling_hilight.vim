@@ -1,4 +1,4 @@
-function ToggleSpellingHL()
+function! ToggleSpellingHL()
        if &spell
             set nospell
             echo "spell hilight off"

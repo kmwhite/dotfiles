@@ -1,4 +1,4 @@
-function ToggleCursorHL()
+function! ToggleCursorHL()
        if &cursorline
             set nocursorcolumn " highlight the current column
             set nocursorline " highlight current line
