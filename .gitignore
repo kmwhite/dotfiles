@@ -1,4 +1,5 @@
 .vim/bak/
+.vim/plugged/
 .gnupg/
 .mutt/configs/accounts.rc
 .vim/.netrwhist

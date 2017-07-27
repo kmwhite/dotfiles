@@ -1,9 +1,22 @@
 " Vim Configuration File
 
-" Pathogen Setup
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-execute pathogen#helptags()
+" Plug Setup
+call plug#begin('~/.vim/plugged')
+" Colorschemes
+Plug 'NLKNguyen/papercolor-theme'
+" Source Control
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+" Community
+Plug 'junegunn/vim-github-dashboard'
+" Language and Syntax
+Plug 'vim-syntastic/syntastic'
+Plug 'elixir-lang/vim-elixir'
+" File Management
+Plug 'scrooloose/nerdtree',         { 'on': 'NERDTreeToggle' }
+Plug 'scrooloose/nerdcommenter',    { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
+call plug#end()
 
 " Disable Arrow Keys
 noremap <Left>  <NOP>

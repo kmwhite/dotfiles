@@ -1,27 +1,3 @@
-[submodule ".vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-[submodule ".vim/bundle/vim-nerdtree"]
-	path = .vim/bundle/vim-nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/vim-nerdcommenter"]
-	path = .vim/bundle/vim-nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule ".vim/bundle/vim-gitgutter"]
-	path = .vim/bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
-[submodule ".vim/bundle/vim-elixir"]
-	path = .vim/bundle/vim-elixir
-	url = https://github.com/elixir-lang/vim-elixir.git
-[submodule ".vim/bundle/vim-papercolor"]
-	path = .vim/bundle/vim-papercolor
-	url = https://github.com/NLKNguyen/papercolor-theme
-[submodule ".vim/bundle/vim-syntastic.git"]
-	path = .vim/bundle/vim-syntastic.git
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule ".asdf"]
 	path = .asdf
 	url = https://github.com/asdf-vm/asdf.git
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
