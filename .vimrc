@@ -41,7 +41,7 @@ set backspace=indent,eol,start         " Allow the erasure of data from a
 set tabpagemax=100                     " Increase tabs opened by `-p`
 
 " helptags ~/.vim/doc                  " loading the Vim helptags
-set notitle                            " disable "Thanks for flying vim"
+set notitle                            " disable 'Thanks for flying vim'
 
 " Tabs, Indent and Whitespace (DEFAULTS: Overriden by autocmd)
 set noautoindent                       " alt:autoindent
