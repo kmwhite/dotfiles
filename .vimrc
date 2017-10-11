@@ -97,7 +97,7 @@ if has('statusline')
   set statusline=%<%f\ (%{&fenc})\             " Filename with Encoding
   set statusline+=%w%h%m%r                     " Options
   set statusline+=%{fugitive#statusline()}     " Fuguitive Additions
-  set statusline+=\ [%{&ff}/%Y]                " Filetype
+  set statusline+=\ [%{&ff}/%Y]                " FileType
   set statusline+=\ [%{getcwd()}]              " Current working directory
   set statusline+=%#warningmsg#
   set statusline+=%{SyntasticStatuslineFlag()} " Syntastic Additions
@@ -143,7 +143,7 @@ if has("autocmd")
 
     " Python
     " http://svn.python.org/projects/python/trunk/Misc/Vim/
-    autocmd Filetype python
+    autocmd FileType python
         \ setlocal textwidth=75|
         \ setlocal tabstop=8|
         \ setlocal softtabstop=4|
@@ -162,7 +162,7 @@ if has("autocmd")
     let python_highlight_all  = 1
 
     " JavaScript
-    autocmd Filetype javascript
+    autocmd FileType javascript
         \ setlocal textwidth=75|
         \ setlocal tabstop=2|
         \ setlocal softtabstop=2|
@@ -172,7 +172,7 @@ if has("autocmd")
         \ setlocal nospell
 
     " Ruby
-    autocmd Filetype ruby
+    autocmd FileType ruby
         \ setlocal textwidth=75|
         \ setlocal tabstop=2|
         \ setlocal softtabstop=2|
@@ -183,7 +183,7 @@ if has("autocmd")
         \ setlocal omnifunc=rubycomplete#Complete
 
     " Perl
-    autocmd Filetype perl
+    autocmd FileType perl
         \ setlocal textwidth=75|
         \ setlocal tabstop=8|
         \ setlocal softtabstop=8|
@@ -273,14 +273,14 @@ if has("autocmd")
 
 endif
 
-" Customer command mappings
-cmap Wq wq
-cmap WQ wq
-cmap WW w !sudo tee 1>/dev/null %<CR>l<CR>
+" Filewrite Mappings
+cnoremap Wq wq
+cnoremap WQ wq
+cnoremap WW w !sudo tee 1>/dev/null %<CR>l<CR>
 
 " Keyboard mappings
-map ,e :e ~/.vimrc<cr>                                   " edit my .vimrc file
-map ,u :source ~/.vimrc<cr>                              " update the system settings from my vimrc file
+noremap ,e :e ~/.vimrc<cr>                                   " edit my .vimrc file
+noremap ,u :source ~/.vimrc<cr>                              " update the system settings from my vimrc file
 
 " Functions
 source ~/.vim/functions/interface_toggles.vim
@@ -296,4 +296,4 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " TagBar Configs
-nmap <F8> :TagbarToggle<CR>
+nnoremap <F8> :TagbarToggle<CR>
