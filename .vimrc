@@ -135,8 +135,6 @@ if has("autocmd")
         filetype on
     endif
 
-    " Auto-trim trailing whitespaces
-    autocmd BufWritePre * :%s/\s\+$//e
 
     " Restore cursor position and set line
     autocmd BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
@@ -284,6 +282,7 @@ noremap ,u :source ~/.vimrc<cr>                              " update the system
 
 " Functions
 source ~/.vim/functions/interface_toggles.vim
+source ~/.vim/functions/strip_whitespace.vim
 
 " NERDTree Icon Overrides.
 let g:NERDTreeDirArrowExpandable="→"
