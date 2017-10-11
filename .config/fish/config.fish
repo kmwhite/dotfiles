@@ -1,5 +1,6 @@
 source ~/.asdf/asdf.fish
 source ~/.config/fish/completions/asdf.fish
+source ~/.config/fish/completions/mix.fish
 
 fundle plugin 'oh-my-fish/plugin-android-sdk'
 fundle plugin 'oh-my-fish/plugin-bang-bang'
