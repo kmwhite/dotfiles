@@ -283,10 +283,7 @@ map ,e :e ~/.vimrc<cr>                                   " edit my .vimrc file
 map ,u :source ~/.vimrc<cr>                              " update the system settings from my vimrc file
 
 " Functions
-source ~/.vim/functions/toggle_overlength_hilight.vim
-source ~/.vim/functions/toggle_search_hilight.vim
-source ~/.vim/functions/toggle_spelling_hilight.vim
-source ~/.vim/functions/toggle_cursor_hilight.vim
+source ~/.vim/functions/interface_toggles.vim
 
 " NERDTree Icon Overrides.
 let g:NERDTreeDirArrowExpandable="→"
