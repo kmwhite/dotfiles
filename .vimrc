@@ -294,5 +294,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" EasyTags Configs
+let g:easytags_async = 1
+
 " TagBar Configs
 nnoremap <F8> :TagbarToggle<CR>
