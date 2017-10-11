@@ -16,6 +16,10 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'scrooloose/nerdtree',         { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter',    { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
+" Tag Management
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 " Disable Arrow Keys
@@ -293,3 +297,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" TagBar Configs
+nmap <F8> :TagbarToggle<CR>
