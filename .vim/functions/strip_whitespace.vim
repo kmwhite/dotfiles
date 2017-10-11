@@ -1,5 +1,5 @@
 fun! StripTrailingWhitespace()
-    if &ft =~ 'python|perl'
+    if &filetype =~ 'python\|perl'
         return
     endif
     %s/\s\+$//e
