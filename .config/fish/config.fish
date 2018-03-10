@@ -1,3 +1,10 @@
+if [ -d $HOME/.local/bin ]
+  set PATH $HOME/.local/bin $PATH
+end
+
+set EDITOR (which vim)
+set -x GPG_TTY (tty)
+
 source ~/.asdf/asdf.fish
 source ~/.config/fish/completions/asdf.fish
 source ~/.config/fish/completions/mix.fish
@@ -8,6 +15,8 @@ fundle plugin 'nesl247/fish-theme-dracula'
 fundle plugin 'oh-my-fish/plugin-basename-compat'
 
 fundle init
+
+eval (dircolors $HOME/.config/dircolors | head -n 1 | sed 's/^LS_COLORS=/set -x LS_COLORS /;s/;$//')
 
 function functions_rename
     set -l old_func $argv[1]
