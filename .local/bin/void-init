@@ -1,0 +1,17 @@
+#!/usr/bin/env fish
+
+# Enable Repositories
+sudo xbps-install -Sy void-repo-nonfree
+sudo xbps-install -Sy void-repo-multilib
+sudo xbps-install -Sy void-repo-multilib-nonfree
+
+# Install Packages
+sudo xbps-install -Sy ctags wget curl GConf firefox keepassxc tmux vim fish-shell automake autoconf {readline,ncurses,libressl,libyaml,libxslt,libffi,unixodbc,bzip2,sqlcipher,sqlite}-devel libtool pkg-config gnupg2 docker-compose docker libpulseaudio-32bit libtxc_dxtn-32bit fontconfig-32bit libavcodec-32bit libavformat-32bit libavresample-32bit libavutil-32bit libv8-32bit libGL-32bit mesa-intel-dri-32bit hunspell-en_US git-all
+
+
+# Configure Docker
+sudo ln -s /etc/sv/docker /var/service/
+sudo usermod -aG docker $USER
+
+# Review and install CORRECT steam packages for graphics:
+# https://wiki.voidlinux.eu/Steam
