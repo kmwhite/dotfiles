@@ -2,8 +2,6 @@
 
 " Plug Setup
 call plug#begin('~/.vim/plugged')
-" Colorschemes
-Plug 'NLKNguyen/papercolor-theme'
 " Source Control
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
@@ -67,7 +65,8 @@ set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
 syntax on                              " syntax highlighing
 set background=dark
-colorscheme PaperColor
+set termguicolors
+colorscheme wombat256
 
 " Modelines
 set modeline                           " last lines in document sets Vim mode
