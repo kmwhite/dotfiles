@@ -2,6 +2,9 @@
 
 " Plug Setup
 call plug#begin('~/.vim/plugged')
+" Configuration Libraries
+Plug 'LucHermitte/lh-vim-lib'
+Plug 'LucHermitte/local_vimrc'
 " Source Control
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
