@@ -3,7 +3,7 @@
 ! vim:enc=utf-8:nu:ai:si:et:ts=4:sw=4:ft=xdefaults:
 ! ----------------------------------------------------------------------------
 
-# include ".config/Xdefaults.d/dracula.xrc"
+# include ".config/Xdefaults.d/theme_apprentice.xrc"
 
 ! Xft Settings
 Xft.antialias:				true
