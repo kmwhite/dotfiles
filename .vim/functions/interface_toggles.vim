@@ -1,4 +1,3 @@
-
 function! ToggleSearchHL()
        if &hlsearch
             set nohlsearch

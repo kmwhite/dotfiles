@@ -98,11 +98,9 @@ if has('statusline')
   " Broken down into easily includeable segments
   set statusline=%<%f\ (%{&fenc})\             " Filename with Encoding
   set statusline+=%w%h%m%r                     " Options
-  set statusline+=%{fugitive#statusline()}     " Fuguitive Additions
   set statusline+=\ [%{&ff}/%Y]                " FileType
   set statusline+=\ [%{getcwd()}]              " Current working directory
   set statusline+=%#warningmsg#
-  set statusline+=%{SyntasticStatuslineFlag()} " Syntastic Additions
   set statusline+=%*
   let g:syntastic_enable_signs=1
   set statusline+=%=%-14.(%l,%c%V%)\ %p%%      " Right aligned file nav info
@@ -140,26 +138,6 @@ if has("autocmd")
 
     " Restore cursor position and set line
     autocmd BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
-
-    " Python
-    " http://svn.python.org/projects/python/trunk/Misc/Vim/
-    autocmd FileType python
-        \ setlocal textwidth=75|
-        \ setlocal tabstop=8|
-        \ setlocal softtabstop=4|
-        \ setlocal shiftwidth=4|
-        \ setlocal expandtab|
-        \ setlocal autoindent|
-        \ setlocal nospell|
-        \ setlocal complete+=k~/.vim/syntax/python.vim isk+=:,( |
-        \ setlocal omnifunc=pythoncomplete#Complete|
-        \ setlocal iskeyword+=:|
-        \ setlocal foldmethod=indent|
-        \ setlocal foldlevel=99|
-        \ syn keyword pythonException try: except: finally:
-        \ syn keyword pythonConditional if elif else:
-    " autocmd BufWritePost *.py !find . -name '*.pyc' -exec rm {} \;
-    let python_highlight_all  = 1
 
     " JavaScript
     autocmd FileType javascript
