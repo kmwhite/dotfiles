@@ -17,6 +17,8 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'scrooloose/nerdtree',         { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter',    { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
+" Completion
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 " Tag Management
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
