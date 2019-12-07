@@ -61,7 +61,7 @@ URxvt*scrollColor:			rgb:77/77/77
 URxvt*secondaryScroll:			true
 
 ! Dunst Configuration
-Dunst*Font:				Consolas-10
+Dunst*Font:				Ubuntu Mono-18
 Dunst*Geometry:				0x10-20+20
 Dunst*IndicateHidden:			yes
 Dunst*Format:				"%s %b"
@@ -76,34 +76,38 @@ Dunst*CriticalBackground:		#cc0000
 Dunst*CriticalForeground:		#ffffff
 Dunst*CriticalTimeout:			10
 
-! DMenu Configuration
+!!! DMenu Configuration
 !! Default Theme
-DMenu*Font:				Consolas-10
-DMenu*Foreground:			rgb:bb/bb/bb
-DMenu*Background:			rgb:22/22/22
-DMenu*SelectedForeground:		rgb:ee/ee/ee
+! Default Colors:
+! DMenu*Font:				Ubuntu Mono-16
+! DMenu*Foreground:			rgb:bb/bb/bb
+! DMenu*Background:			rgb:22/22/22
+! DMenu*SelectedForeground:		rgb:ee/ee/ee
+! Half-Life Theme:
 DMenu*SelectedBackground:		rgb:00/55/77
-!!! DMenu*Foreground:			rgb:6b/6b/6b
-!!! DMenu*Background:			rgb:22/22/22
-!!! DMenu*SelectedForeground:		rgb:00/00/00
-!!! DMenu*SelectedBackground:		rgb:cc/55/00
+DMenu*Foreground:			rgb:6b/6b/6b
+DMenu*Background:			rgb:22/22/22
+DMenu*SelectedForeground:		rgb:00/00/00
+DMenu*SelectedBackground:		rgb:cc/55/00
 
 ! DWM Configuration
 !! Default Theme
-Dwm*Font:				Consolas-10
+Dwm*Font:				Ubuntu Mono-16
 Dwm*DefaultTerminal:			urxvt
-Dwm*NormalBorderColor:			rgb:44/44/44
+! Default Colors:
+! Dwm*NormalBorderColor:		rgb:44/44/44
+! Dwm*NormalBgColor:			rgb:22/22/22
+! Dwm*NormalFgColor:			rgb:bb/bb/bb
+! Dwm*SelectedBorderColor:		rgb:00/55/77
+! Dwm*SelectedBgColor:			rgb:00/55/77
+! Dwm*SelectedFgColor:			rgb:ee/ee/ee
+! Half-Life Theme:
+Dwm*NormalBorderColor:			rgb:c3/56/17
 Dwm*NormalBgColor:			rgb:22/22/22
-Dwm*NormalFgColor:			rgb:bb/bb/bb
-Dwm*SelectedBorderColor:		rgb:00/55/77
-Dwm*SelectedBgColor:			rgb:00/55/77
-Dwm*SelectedFgColor:			rgb:ee/ee/ee
-!!! Dwm*NormalBorderColor:		rgb:c3/56/17
-!!! Dwm*NormalBgColor:			rgb:22/22/22
-!!! Dwm*NormalFgColor:			rgb:ff/ff/ff
-!!! Dwm*SelectedBorderColor:		rgb:cc/55/00
-!!! Dwm*SelectedBgColor:		rgb:cc/55/00
-!!! Dwm*SelectedFgColor:		rgb:00/00/00
+Dwm*NormalFgColor:			rgb:ff/ff/ff
+Dwm*SelectedBorderColor:		rgb:cc/55/00
+Dwm*SelectedBgColor:			rgb:cc/55/00
+Dwm*SelectedFgColor:			rgb:00/00/00
 
 ! XPdf Configuration
 xpdf*enableFreetype:			yes
