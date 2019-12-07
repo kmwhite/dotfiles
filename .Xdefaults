@@ -148,3 +148,42 @@ Xpdf.initialZoom:			width
 Xpdf*foreground:			black
 Xpdf*background:			white
 
+!!! XConsole
+! XConsole*consoleLog:			/tmp/conslog
+XConsole*doTitle:			true
+XConsole*Command*resize:		false
+XConsole*background:			dimgrey
+XConsole*closeWindow.borderWidth:	2
+XConsole*closeWindow.bottom:		ChainTop
+XConsole*closeWindow.font:		-adobe-new century schoolbook-bold-r-normal--14-140-75-75-*
+XConsole*closeWindow.horizDistance:	452
+XConsole*closeWindow.internalHeight:	2
+XConsole*closeWindow.label:		Hide
+XConsole*closeWindow.left:		ChainRight
+XConsole*closeWindow.right:		ChainRight
+XConsole*closeWindow.top:		ChainTop
+XConsole*displayNonPrinting:		false
+XConsole*foreground:			gold
+XConsole*reverseVideo:			true
+XConsole*text*font:			fixed
+XConsole*text.borderWidth:		1
+XConsole*text.bottom:			ChainBottom
+XConsole*text.displayCaret:		false
+XConsole*text.fromVert:			title
+XConsole*text.height:			150
+XConsole*text.horizDistance:		6
+XConsole*text.left:			ChainLeft
+XConsole*text.right:			ChainRight
+XConsole*text.top:			ChainTop
+XConsole*text.width:			780
+XConsole*thickness:			10
+XConsole*title.borderWidth:		0
+XConsole*title.bottom:			ChainTop
+XConsole*title.label:			CONSOLE
+XConsole*title.left:			ChainLeft
+XConsole*title.right:			ChainLeft
+XConsole*title.top:			ChainTop
+XConsole*title.width:			150
+XConsole.autoRaise:			on
+XConsole.geometry:			+900+0
+XConsoleFrame.defaultDistance:		1
