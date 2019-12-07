@@ -5,9 +5,9 @@
 
 # include ".config/Xdefaults.d/theme_rezza.xrc"
 
-! Xft Settings
+!!! Xft Settings
 Xft.antialias:				true
-Xft.dpi:				96
+Xft.dpi:				72
 Xft.hinting:				true
 Xft.hintstyle:				1
 Xft.rgba:				1
