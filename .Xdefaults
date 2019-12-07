@@ -141,9 +141,10 @@ Dwm*SelectedBorderColor:		rgb:cc/55/00
 Dwm*SelectedBgColor:			rgb:cc/55/00
 Dwm*SelectedFgColor:			rgb:00/00/00
 
-! XPdf Configuration
-xpdf*enableFreetype:			yes
-xpdf*antialias:				yes
-xpdf*foreground:			black
-xpdf*background:			white
-gpdf*urlCommand:			/usr/local/bin/chrome %s
+! Xpdf Configuration
+Xpdf*enableFreetype:			yes
+Xpdf*antialias:				yes
+Xpdf.initialZoom:			width
+Xpdf*foreground:			black
+Xpdf*background:			white
+
