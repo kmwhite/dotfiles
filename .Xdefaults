@@ -42,7 +42,7 @@ XScreenSaver.passwd.thermometer.width:       8
 !datestamp format--see the strftime(3) manual page for details
 XScreenSaver.dateFormat:		%F %T
 
-! Term Settings
+!!! URxvt Settings
 !! Configuration
 URxvt*loginShell:			true
 URxvt*termName:				rxvt-256color
@@ -53,13 +53,15 @@ URxvt*cutchars:				()*;<>[]{|}
 URxvt*print-pipe:			cat > $(echo URxvt.dump.$(date +'%Y%M%d%H%m%S'))
 URxvt*keysym.Home:			\033[1~
 URxvt*keysym.End:			\033[4~
-!URxvt*geometry:			80x24
-!URxvt*deleteIsDEL:			true
-!URxvt*backarrowKey:			true
+! URxvt*geometry:			80x24
+! URxvt*deleteIsDEL:			true
+! URxvt*backarrowKey:			true
 !! Fonts
-URxvt*font:				xft:Consolas:pixelsize=18:style=regular
-URxvt*boldFont:				xft:Consolas:pixelsize=18:style=bold
+URxvt*font:				xft:Consolas:size=14:style=Regular
+URxvt*boldFont:				xft:Consolas:size=14:style=Bold
 !! Colors
+! Use when depth is set to 32bit and tabbed extension is not loaded
+! URxvt*background:			rgba:0000/0000/0200/c800
 URxvt*cursorColor:			rgb:ff/cc/00
 !! Transparency
 URxvt*transparent:			true
@@ -79,7 +81,7 @@ URxvt.tabbed.tabbar-bg:			0
 URxvt.tabbed.tab-fg:			3
 URxvt.tabbed.tab-bg:			0
 !!! Matching
-URxvt.urlLauncher:			/usr/local/bin/chrome "%s"
+URxvt.urlLauncher:			/usr/bin/firefox "%s"
 URxvt.matcher.button:			1
 URxvt.matcher.pattern.1:		\\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 !! Scrolling
@@ -87,7 +89,8 @@ URxvt*scrollBar:			false
 URxvt*scrollstyle:			plain
 URxvt*scrollBar_right:			false
 URxvt*scrollColor:			rgb:77/77/77
-URxvt*secondaryScroll:			true
+URxvt.secondaryScreen:			true
+URxvt.secondaryScroll:			false
 
 ! Dunst Configuration
 Dunst*Font:				Ubuntu Mono-18
