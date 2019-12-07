@@ -13,6 +13,35 @@ Xft.hintstyle:				1
 Xft.rgba:				1
 Xft.lcdfilter:				1
 
+!!! XScreenSaver
+!! font settings
+XScreenSaver.Dialog.headingFont:        Ubuntu Mono-14
+XScreenSaver.Dialog.bodyFont:           Ubuntu Mono-14
+XScreenSaver.Dialog.labelFont:          Ubuntu Mono-14
+XScreenSaver.Dialog.unameFont:          Ubuntu Mono-14
+XScreenSaver.Dialog.buttonFont:         Ubuntu Mono-14
+XScreenSaver.Dialog.dateFont:           Ubuntu Mono-14
+XScreenSaver.passwd.passwdFont:         Ubuntu Mono-14
+!general dialog box (affects main hostname, username, password text)
+XScreenSaver.Dialog.foreground:         #EDEDED
+XScreenSaver.Dialog.background:         #202020
+XScreenSaver.Dialog.topShadowColor:     #202024
+XScreenSaver.Dialog.bottomShadowColor:  #202024
+XScreenSaver.Dialog.Button.foreground:  #EDEDFF
+XScreenSaver.Dialog.Button.background:  #444
+!username/password input box and date text colour
+XScreenSaver.Dialog.text.foreground:    #EDEDFF
+XScreenSaver.Dialog.text.background:    #444
+XScreenSaver.Dialog.internalBorderWidth:24
+XScreenSaver.Dialog.borderWidth:        0
+XScreenSaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+XScreenSaver.passwd.thermometer.foreground:  #A9B7C4
+XScreenSaver.passwd.thermometer.background:  #202020
+XScreenSaver.passwd.thermometer.width:       8
+!datestamp format--see the strftime(3) manual page for details
+XScreenSaver.dateFormat:		%F %T
+
 ! Term Settings
 !! Configuration
 URxvt*loginShell:			true
