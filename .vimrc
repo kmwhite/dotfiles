@@ -18,7 +18,7 @@ Plug 'scrooloose/nerdtree',         { 'on': 'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter',    { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 " Completion
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
 " Tag Management
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
@@ -32,7 +32,7 @@ noremap <Up>    <NOP>
 noremap <Down>  <NOP>
 
 " Vim needs a non-fish shell to run smoothly.
-set shell=/bin/bash
+set shell=/bin/sh
 
 " General Configs
 set nocompatible                       " use Vim, not Vi
@@ -265,6 +265,9 @@ noremap ,u :source ~/.vimrc<cr>                              " update the system
 " Functions
 source ~/.vim/functions/interface_toggles.vim
 source ~/.vim/functions/strip_whitespace.vim
+
+" YouCompleteMe Configuration
+let g:ycm_server_python_interpreter="/usr/local/bin/python3.6"
 
 " NERDTree Icon Overrides.
 let g:NERDTreeDirArrowExpandable="→"
