@@ -16,6 +16,7 @@ Plug 'junegunn/vim-github-dashboard'
 " Language and Syntax
 Plug 'vim-syntastic/syntastic'
 Plug 'elixir-lang/vim-elixir'
+Plug 'KabbAmine/zeavim.vim'
 " File Management
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
