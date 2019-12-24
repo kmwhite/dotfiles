@@ -5,6 +5,9 @@ call plug#begin('~/.vim/plugged')
 " Configuration Libraries
 Plug 'LucHermitte/lh-vim-lib'
 Plug 'LucHermitte/local_vimrc'
+" Colorschemes
+Plug 'srcery-colors/srcery-vim'
+Plug 'NLKNguyen/papercolor-theme'
 " Source Control
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
@@ -63,12 +66,33 @@ set bdir=~/.vim/bak                    " set the backup-directory
 set bex=~                              " set the backup-extension
 
 " Colors and Highlighting
+" set termguicolors
+syntax on                              " syntax highlighing
 set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
-syntax on                              " syntax highlighing
 set background=dark
-set termguicolors
-colorscheme wombat256
+"" Dracula Color Scheme
+" let g:dracula_italic = 0               " enable/disable italics
+" let g:dracula_colorterm = 1            " configure `truecolor` support in term
+" let g:fzf_colors = {
+" 	\ 'fg': ['fg', 'Normal'],
+" 	\ 'bg': ['bg', 'Normal'],
+" 	\ 'hl': ['fg', 'Search'],
+" 	\ 'fg+': ['fg', 'Normal'],
+" 	\ 'bg+': ['bg', 'Normal'],
+" 	\ 'hl+': ['fg', 'DraculaOrange'],
+" 	\ 'info': ['fg', 'DraculaPurple'],
+" 	\ 'border': ['fg', 'Ignore'],
+" 	\ 'prompt': ['fg', 'DraculaGreen'],
+" 	\ 'pointer': ['fg', 'Exception'],
+" 	\ 'marker': ['fg', 'Keyword'],
+" 	\ 'spinner': ['fg', 'Label'],
+" 	\ 'header': ['fg', 'Comment'] }
+" colorscheme dracula
+"" Srcery Color Scheme
+let g:srcery_bold = 1
+let g:srcery_italic = 1
+colorscheme srcery
 
 " Modelines
 set modeline                           " last lines in document sets Vim mode
