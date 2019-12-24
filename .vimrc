@@ -14,11 +14,8 @@ Plug 'junegunn/vim-github-dashboard'
 Plug 'vim-syntastic/syntastic'
 Plug 'elixir-lang/vim-elixir'
 " File Management
-Plug 'scrooloose/nerdtree',         { 'on': 'NERDTreeToggle' }
-Plug 'scrooloose/nerdcommenter',    { 'on': 'NERDTreeToggle' }
-Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
-" Completion
-" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 " Tag Management
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'

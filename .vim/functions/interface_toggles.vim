@@ -32,3 +32,5 @@ function! ToggleCursorHL()
        endif
 endfunction
 map <silent> <C-k> <Esc>:call ToggleCursorHL()<CR>
+
+map <silent> <C-p> <Esc>:Files<CR>
