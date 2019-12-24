@@ -35,6 +35,14 @@ noremap <Down>  <NOP>
 " Vim needs a non-fish shell to run smoothly.
 set shell=/bin/sh
 
+if has("gui_running")
+  set guioptions-=R
+  set guioptions-=r
+  set guioptions-=L
+  set guioptions-=l
+  set guifont=Iosevka\ Type\ Slab\ Medium\ 12
+endif
+
 " General Configs
 set nocompatible                       " use Vim, not Vi
 set ttyfast                            " smoother changes, alt:nottyfast
