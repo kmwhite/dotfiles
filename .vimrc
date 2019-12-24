@@ -21,9 +21,9 @@ Plug 'KabbAmine/zeavim.vim'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 " Tag Management
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags'
-Plug 'majutsushi/tagbar'
+Plug 'xolox/vim-misc', { 'on': 'Tagbar' }
+Plug 'xolox/vim-easytags', { 'on': 'Tagbar' }
+Plug 'majutsushi/tagbar', { 'on': 'Tagbar' }
 call plug#end()
 
 " Disable Arrow Keys
