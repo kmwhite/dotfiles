@@ -109,18 +109,28 @@ Dunst*CriticalForeground:		#ffffff
 Dunst*CriticalTimeout:			10
 
 !!! DMenu Configuration
+!! General Settings
+DMenu*Font:				Ubuntu Mono-16
 !! Default Theme
 ! Default Colors:
-! DMenu*Font:				Ubuntu Mono-16
 ! DMenu*Foreground:			rgb:bb/bb/bb
 ! DMenu*Background:			rgb:22/22/22
 ! DMenu*SelectedForeground:		rgb:ee/ee/ee
 ! Half-Life Theme:
-DMenu*SelectedBackground:		rgb:00/55/77
-DMenu*Foreground:			rgb:6b/6b/6b
-DMenu*Background:			rgb:22/22/22
-DMenu*SelectedForeground:		rgb:00/00/00
-DMenu*SelectedBackground:		rgb:cc/55/00
+! DMenu*Foreground:			rgb:6b/6b/6b
+! DMenu*Background:			rgb:22/22/22
+! DMenu*SelectedForeground:		rgb:00/00/00
+! DMenu*SelectedBackground:		rgb:cc/55/00
+! Cyber - https://www.happyhues.co/palettes/4
+!!
+!! Paragraph
+DMenu*Foreground:			rgb:94/a1/b2
+!! Background
+DMenu*Background:			rgb:16/16/1a
+!! Button Text / Headline
+DMenu*SelectedForeground:		rgb:ff/ff/fe
+!! Button
+DMenu*SelectedBackground:		rgb:7f/5a/f0
 
 ! DWM Configuration
 !! Default Theme
@@ -134,12 +144,25 @@ Dwm*DefaultTerminal:			urxvt
 ! Dwm*SelectedBgColor:			rgb:00/55/77
 ! Dwm*SelectedFgColor:			rgb:ee/ee/ee
 ! Half-Life Theme:
-Dwm*NormalBorderColor:			rgb:c3/56/17
-Dwm*NormalBgColor:			rgb:22/22/22
-Dwm*NormalFgColor:			rgb:ff/ff/ff
-Dwm*SelectedBorderColor:		rgb:cc/55/00
-Dwm*SelectedBgColor:			rgb:cc/55/00
-Dwm*SelectedFgColor:			rgb:00/00/00
+! Dwm*NormalBorderColor:		rgb:c3/56/17
+! Dwm*NormalBgColor:			rgb:22/22/22
+! Dwm*NormalFgColor:			rgb:ff/ff/ff
+! Dwm*SelectedBorderColor:		rgb:cc/55/00
+! Dwm*SelectedBgColor:			rgb:cc/55/00
+! Dwm*SelectedFgColor:			rgb:00/00/00
+! Cyber - https://www.happyhues.co/palettes/4
+!! Background
+Dwm*NormalBgColor:			rgb:16/16/1a
+!! Main
+Dwm*NormalFgColor:			rgb:ff/ff/fe
+!! Secondary
+Dwm*NormalBorderColor:                  rgb:72/75/7e
+!! Tertiary
+Dwm*SelectedBorderColor:		rgb:2d/67/7d
+!! Highlight
+Dwm*SelectedBgColor:			rgb:7f/5a/f0
+!! Stroke
+Dwm*SelectedFgColor:			rgb:01/01/01
 
 ! Xpdf Configuration
 Xpdf*enableFreetype:			yes
