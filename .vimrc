@@ -162,7 +162,8 @@ else
 endif
 
 " AutoCommand Magic!
-if has("autocmd")
+if has("autocmd") && !exists("autocommands_loaded")
+    let autocommands_loaded = 1
 
     " Enable file type detection
     if $HOME !~# '^/Users/'
