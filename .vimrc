@@ -140,7 +140,7 @@ if has('statusline')
   set statusline=%<%f\ (%{&fenc})\             " Filename with Encoding
   set statusline+=%w%h%m%r                     " Options
   set statusline+=\ [%{&ff}/%Y]                " FileType
-  set statusline+=\ [%{getcwd()}]              " Current working directory
+  " set statusline+=\ [%{getcwd()}]              " Current working directory
   set statusline+=%#warningmsg#
   set statusline+=%*
   set statusline+=%=%-14.(%l,%c%V%)\ %p%%      " Right aligned file nav info
