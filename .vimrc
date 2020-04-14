@@ -6,8 +6,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'LucHermitte/lh-vim-lib'
 Plug 'LucHermitte/local_vimrc'
 " Colorschemes
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'chriskempson/base16-vim'
 Plug 'srcery-colors/srcery-vim'
-Plug 'NLKNguyen/papercolor-theme'
 " Source Control
 Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
@@ -79,8 +80,9 @@ set bex=~                              " set the backup-extension
 syntax on                              " syntax highlighing
 set t_Co=256                           " turn on 256 color mode
 set showmatch                          " highlight matching brace
-set background=dark
-"" Dracula Color Scheme
+
+"" Dracula Colors
+" set background=dark
 " let g:dracula_italic = 0               " enable/disable italics
 " let g:dracula_colorterm = 1            " configure `truecolor` support in term
 " let g:fzf_colors = {
@@ -98,10 +100,17 @@ set background=dark
 " 	\ 'spinner': ['fg', 'Label'],
 " 	\ 'header': ['fg', 'Comment'] }
 " colorscheme dracula
-"" Srcery Color Scheme
-let g:srcery_bold = 1
-let g:srcery_italic = 1
-colorscheme srcery
+
+"" Srcery Colors
+" let g:srcery_bold = 1
+" let g:srcery_italic = 1
+" colorscheme srcery
+
+"" Base16 Colors
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
 " Modelines
 set modeline                           " last lines in document sets Vim mode
